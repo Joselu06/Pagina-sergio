@@ -1,6 +1,6 @@
 function actualizarReloj() {
     const ahora = new Date();
-    const objetivo = new Date(ahora.getFullYear(), 5, 5, 10, 0, 0);
+    const objetivo = new Date(ahora.getFullYear(), 17, 7, 10, 0, 0);
 
     if (ahora > objetivo) {
       objetivo.setFullYear(objetivo.getFullYear() + 1);
